@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "payments-test",
+    "description": "This project is really great.",
+    "slug": "payments-test",
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.test.payments",
+      "publishBundlePath": "ios/payments-test/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/payments-test/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.test.payments"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expb91ee61b80954a1cae6d3d655698439b",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.2.1-sdk24.0.0-36ff2264-629d-44df-a819-8c982454e5e8.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.2.0-sdk24.0.0-f3c74eb9-2084-4c71-8358-ab9eb312bc4b.tar.gz"
+    }
+  }
+}
